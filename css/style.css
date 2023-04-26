@@ -1,0 +1,170 @@
+:root {
+  --primary-whte-color: #ffffff;
+  --primary-color-tittle: #2e2f42;
+  --secondary-color-tittle: #434455;
+  --button-bg-color: #4d5ae5;
+}
+body {
+  font-family: "Roboto";
+}
+.list {
+  list-style: none;
+}
+
+/* webstudio */
+.webstudio {
+  width: 44px;
+  height: 21px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+}
+.studio {
+  color: var(--primary-color-tittle);
+}
+/* site-nav */
+.site-nav .link {
+  font-style: normal;
+  color: var(--primary-color-tittle);
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--button-bg-color);
+}
+.site-nav .link.current {
+  color: var(--button-bg-color);
+}
+
+/* contakts-nav */
+.mail {
+  text-decoration: none;
+  color: var(--primary-color-tittle);
+}
+.tel {
+  text-decoration: none;
+  color: var(--primary-color-tittle);
+}
+.mail:hover {
+  color: var(--button-bg-color);
+}
+.mail:focus {
+  color: var(--button-bg-color);
+}
+.tel:hover {
+  color: var(--button-bg-color);
+}
+.tel:focus {
+  color: var(--button-bg-color);
+}
+/*поле с фоном и кнопокй */
+.hero {
+}
+/* секция с описанием */
+.features {
+  color: var(--primary-color-tittle);
+}
+.features.tittle {
+  color: var(--secondary-color-tittle);
+}
+.post {
+  color: var(--secondary-color-tittle);
+}
+.tittle {
+  color: var(--primary-color-tittle);
+}
+/* button */
+.button {
+  background-color: var(--button-bg-color);
+  color: var(--primary-whte-color);
+}
+
+/* Page two:portfolio*/
+.filters {
+  color: var(--button-bg-color);
+  background-color: var(--primary-whte-color);
+  text-decoration: none;
+}
+.filters:hover,
+.filters:focus {
+  color: var(--primary-whte-color);
+  background-color: var(--button-bg-color);
+}
+
+.one {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  left: 156px;
+  top: 288px;
+}
+.two {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  left: 540px;
+  top: 288px;
+}
+.three {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  left: 924px;
+  top: 288px;
+}
+.four {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  left: 156px;
+  top: 756px;
+}
+.five {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  left: 540px;
+  top: 756px;
+}
+.six {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  left: 924px;
+  top: 756px;
+}
+.seven {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  left: 156px;
+  top: 1224px;
+}
+.eight {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  left: 540px;
+  top: 1224px;
+}
+.nine {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  left: 924px;
+  top: 1224px;
+}
