@@ -62,9 +62,6 @@ body {
 .tel:focus {
   color: var(--button-bg-color);
 }
-/*поле с фоном и кнопокй */
-.hero {
-}
 /* секция с описанием */
 .features {
   color: var(--primary-color-tittle);
