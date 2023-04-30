@@ -43,10 +43,12 @@ body {
 
 /* contakts-nav */
 .mail {
+  font-style: normal;
   text-decoration: none;
   color: var(--primary-color-tittle);
 }
 .tel {
+  font-style: normal;
   text-decoration: none;
   color: var(--primary-color-tittle);
 }
