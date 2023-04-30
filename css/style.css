@@ -79,6 +79,8 @@ body {
 .button {
   background-color: var(--button-bg-color);
   color: var(--primary-whte-color);
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 /* Page two:portfolio*/
@@ -93,6 +95,7 @@ body {
   background-color: var(--button-bg-color);
 }
 
+/* 
 .one {
   box-sizing: border-box;
   position: absolute;
@@ -165,3 +168,4 @@ body {
   left: 924px;
   top: 1224px;
 }
+ */
