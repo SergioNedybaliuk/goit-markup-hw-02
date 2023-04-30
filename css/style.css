@@ -3,6 +3,7 @@
   --primary-color-tittle: #2e2f42;
   --secondary-color-tittle: #434455;
   --button-bg-color: #4d5ae5;
+  --filter-first-color: #e7e9fc;
 }
 body {
   font-family: "Roboto";
@@ -78,23 +79,31 @@ body {
   color: var(--primary-color-tittle);
 }
 /* button */
-.button {
+.first-button {
   background-color: var(--button-bg-color);
   color: var(--primary-whte-color);
   border-radius: 4px;
   padding: 16px 32px;
+  cursor: pointer;
 }
 
 /* Page two:portfolio*/
 .filters {
   color: var(--button-bg-color);
-  background-color: var(--primary-whte-color);
+  background-color: var(--filter-first-color);
   text-decoration: none;
+  cursor: pointer;
 }
 .filters:hover,
 .filters:focus {
-  color: var(--primary-whte-color);
+  color: var(--filter-first-color);
   background-color: var(--button-bg-color);
+}
+.text-b {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
 }
 
 /* 
