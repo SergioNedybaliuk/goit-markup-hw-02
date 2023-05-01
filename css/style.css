@@ -5,11 +5,6 @@
   --button-bg-color: #4d5ae5;
   --filter-first-color: #e7e9fc;
 }
-body {
-  font-family: "Roboto";
-  line-height: 1, 5;
-  color: #2e2f42;
-}
 .list {
   list-style: none;
 }
