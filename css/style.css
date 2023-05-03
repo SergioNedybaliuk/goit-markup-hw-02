@@ -10,58 +10,52 @@
 }
 
 /* webstudio */
-.webstudio {
-  width: 44px;
-  height: 21px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  text-decoration: none;
-}
+
 .studio {
   color: var(--primary-color-tittle);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+.web {
+  color: var(--button-bg-color);
+}
+.link {
+  text-decoration: none;
+}
+
 /* site-nav */
-.site-nav .link {
-  font-style: normal;
+.site-nav {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primary-color-tittle);
   text-decoration: none;
-  display: flex;
-  flex-direction: row;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--button-bg-color);
+  color: #404bbf;
 }
 .site-nav .link.current {
   color: var(--button-bg-color);
 }
 
 /* contakts-nav */
-.mail {
+.mail-tel {
   font-style: normal;
-  text-decoration: none;
-  color: var(--primary-color-tittle);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-tittle);
 }
-.tel {
-  font-style: normal;
-  text-decoration: none;
-  color: var(--primary-color-tittle);
+.mail-tel:hover,
+.mail-tel:focus {
+  color: #404bbf;
 }
-.mail:hover {
-  color: var(--button-bg-color);
-}
-.mail:focus {
-  color: var(--button-bg-color);
-}
-.tel:hover {
-  color: var(--button-bg-color);
-}
-.tel:focus {
-  color: var(--button-bg-color);
-}
+
 /* секция с описанием */
 .features {
   color: var(--primary-color-tittle);
