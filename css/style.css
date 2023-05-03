@@ -5,23 +5,30 @@
   --button-bg-color: #4d5ae5;
   --filter-first-color: #e7e9fc;
   --filter-bg-color: #f4f4fd;
+  --filter-color: #404bbf;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 .list {
   list-style: none;
 }
 
-/* webstudio */
+/* logo webstudio */
 
 .studio {
-  color: var(--primary-color-tittle);
+  color: var(--button-bg-color);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
+  font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .web {
-  color: var(--button-bg-color);
+  color: var(--primary-color-tittle);
 }
 .link {
   text-decoration: none;
@@ -38,10 +45,10 @@
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #404bbf;
+  color: var(--filter-color);
 }
 .site-nav .link.current {
-  color: var(--button-bg-color);
+  color: var(--filter-color);
 }
 
 /* contakts-nav */
@@ -93,80 +100,24 @@
 }
 .filters:hover,
 .filters:focus {
-  color: var(--filter-bg-color);
+  color: #ffffff;
   background-color: #404bbf;
 }
-/* 
+/* !-- блок з картинками --> */
 .one {
   box-sizing: border-box;
   position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 288px;
 }
-.two {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 540px;
-  top: 288px;
+.row-h {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-tittle);
 }
-.three {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 924px;
-  top: 288px;
+.row-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-tittle);
 }
-.four {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 756px;
-}
-.five {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 540px;
-  top: 756px;
-}
-.six {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 924px;
-  top: 756px;
-}
-.seven {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 1224px;
-}
-.eight {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 540px;
-  top: 1224px;
-}
-.nine {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 924px;
-  top: 1224px;
-}
- */
