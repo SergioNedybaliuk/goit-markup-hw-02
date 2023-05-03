@@ -4,6 +4,7 @@
   --secondary-color-tittle: #434455;
   --button-bg-color: #4d5ae5;
   --filter-first-color: #e7e9fc;
+  --filter-bg-color: #f4f4fd;
 }
 .list {
   list-style: none;
@@ -80,23 +81,21 @@
 
 /* Page two:portfolio*/
 .filters {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--button-bg-color);
-  background-color: var(--filter-first-color);
+  background-color: var(--filter-bg-color);
   text-decoration: none;
   cursor: pointer;
 }
 .filters:hover,
 .filters:focus {
-  color: var(--filter-first-color);
-  background-color: var(--button-bg-color);
+  color: var(--filter-bg-color);
+  background-color: #404bbf;
 }
-.text-b {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 5;
-}
-
 /* 
 .one {
   box-sizing: border-box;
