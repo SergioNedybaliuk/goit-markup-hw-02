@@ -116,7 +116,7 @@ body {
   color: var(--secondary-color-tittle);
 }
 /* section 3 */
-.sec-3 {
+.sec-three {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -126,10 +126,10 @@ body {
 }
 
 /* section 4 */
-.sec-4 {
+.sec-four {
   background-color: #f4f4fd;
 }
-.sec4-li {
+.secfour-li {
   background-color: #ffffff;
 }
 /* Underground */
