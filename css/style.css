@@ -41,16 +41,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-color-tittle);
-  text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav.link:hover,
+.site-nav.link:focus {
   color: var(--filter-color);
 }
-.site-nav .link.current {
+
+/* .site-nav .link.current {
   color: var(--filter-color);
-}
+} */
+
 .font {
   font-style: normal;
 }
