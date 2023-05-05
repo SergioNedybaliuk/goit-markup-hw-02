@@ -129,6 +129,14 @@ body {
 .sec-four {
   background-color: #f4f4fd;
 }
+.sec-four-h {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-color-tittle);
+}
 .secfour-li {
   background-color: #ffffff;
   font-weight: 500;
