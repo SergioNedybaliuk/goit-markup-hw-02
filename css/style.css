@@ -131,6 +131,11 @@ body {
 }
 .secfour-li {
   background-color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-tittle);
 }
 /* Underground */
 .underground {
