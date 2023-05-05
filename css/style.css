@@ -48,10 +48,6 @@ body {
   color: var(--filter-color);
 }
 
-/* .site-nav .link.current {
-  color: var(--filter-color);
-} */
-
 .font {
   font-style: normal;
 }
@@ -68,25 +64,80 @@ body {
 }
 
 /* секция с описанием */
+
+.sec-one {
+  background-color: var(--primary-color-tittle);
+}
+.head {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
 .features {
   color: var(--primary-color-tittle);
 }
 .features.tittle {
   color: var(--secondary-color-tittle);
 }
-.post {
-  color: var(--secondary-color-tittle);
-}
+
 .tittle {
   color: var(--primary-color-tittle);
 }
 /* button */
 .first-button {
-  background-color: var(--button-bg-color);
-  color: var(--primary-whte-color);
-  border-radius: 4px;
-  padding: 16px 32px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
+}
+.first-button:hover,
+.first-button:focus {
+  background-color: #404bbf;
+}
+/* Section 2 */
+.sec-h {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-tittle);
+}
+.sec-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-tittle);
+}
+/* section 3 */
+.sec-3 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-color-tittle);
+}
+
+/* section 4 */
+.sec-4 {
+  background-color: #f4f4fd;
+}
+.sec4-li {
+  background-color: #ffffff;
+}
+/* Underground */
+.underground {
+  background-color: var(--primary-color-tittle);
+}
+.under {
+  color: #f4f4fd;
 }
 
 /* Page two:portfolio*/
@@ -106,6 +157,7 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
+
 /* !-- блок з картинками --> */
 .one {
   box-sizing: border-box;
